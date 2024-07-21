@@ -9,7 +9,7 @@ LIBTORCH=$(pwd)/.local/lib/python3.9/site-packages/torch/
 
 # INSTALL NN TILDE
 echo "configuring nn~..."
-git clone https://github.com/acids-ircam/nn_tilde.git > /dev/null 2>&1
+git clone https://github.com/maurice-jo/nn_tilde_pi.git > /dev/null 2>&1
 cd nn_tilde
 mkdir build
 cd build
