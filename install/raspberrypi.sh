@@ -10,7 +10,7 @@ LIBTORCH=$(pwd)/.local/lib/python3.9/site-packages/torch/
 # INSTALL NN TILDE
 echo "configuring nn~..."
 git clone https://github.com/maurice-jo/nn_tilde_pi.git > /dev/null 2>&1
-cd nn_tilde
+cd nn_tilde_pi
 mkdir build
 cd build
 cmake ../src/ -DCMAKE_PREFIX_PATH=$LIBTORCH -DCMAKE_BUILD_TYPE=Release > /dev/null 2>&1
