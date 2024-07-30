@@ -5,11 +5,11 @@ sudo apt install -y cmake build-essential git puredata puredata-dev python3 pyth
 
 echo "installing libtorch..."
 python3 -m pip install torch > /dev/null 2>&1
-LIBTORCH=$(pwd)/.local/lib/python3.9/site-packages/torch/
+LIBTORCH=$(pwd)/.local/lib/python3.11/site-packages/torch/
 
 # INSTALL NN TILDE
 echo "configuring nn~..."
-git clone https://github.com/maurice-jo/nn_tilde_pi.git > /dev/null 2>&1
+git clone https://github.com/acids-ircam/nn_tilde/ > /dev/null 2>&1
 cd nn_tilde_pi
 mkdir build
 cd build
